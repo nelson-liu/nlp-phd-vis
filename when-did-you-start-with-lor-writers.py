@@ -30,7 +30,7 @@ integer_count_map = [start_date_counts[x] for x in sorted(start_date_counts.keys
 print(integer_year_map)
 print(integer_count_map)
 
-plt.figure(figsize=(10, 10))
+plt.figure(figsize=(10, 5))
 plt.bar(integer_year_map, integer_count_map, align='center')
 plt.title("When did you start working with your LoR writers?")
 plt.xlabel("Year Started Working")
